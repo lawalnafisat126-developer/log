@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffa500;
+    /* margin: 10px; */
+    padding: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 30px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+ul a{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+ul a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-right: 20px;
+}
+
+.Trusted{
+    background:linear-gradient(rgba(0,128,0,0.2)), url(trusted.jpeg);
+    background-color: brown;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    margin: -10px;
+    
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.even h1{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 40px;
+}
+.even P{
+    font-size: 25px;
+    color: white;
+}
+.even{
+    position: relative;
+    top: 150px;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+    
+}
+.nill{
+    margin: 70px;
+    text-align: center;
+}
+.nill h1{
+    font-size: 45px;
+    font-weight: bolder;
+    color: orange;
+}
+.across img{
+    width: 90%;
+    height: 40vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Secure img{
+    width: 60px;
+}
+.Secure{
+    display: block;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+.Secure h2{
+    margin: 10px;
+}
+.Secure p{
+    margin-bottom: 60px;
+    width: 90%;
+}
+.parent-numb{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+.eco img{
+   width: 33%;
+   height: 40vh;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.logic img{
+    width: 40px;
+}
+.parent-long{
+    display: block;
+    box-shadow: 5px 5px 5px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.parent-act{
+    margin: 30px 35px;
+}
+.logic p{
+    margin-bottom: 60px;
+    width: 50%;
+}
+.quote{
+     text-align: center;
+}
+button{
+    padding:15px;
+    background-color: white;
+    color: #ffa500;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 5px 5px rgb(224, 223, 223);
+    margin-top: 15px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.acrosss img{
+    width: 30%;
+    justify-content: center;
+}
+.acrosss{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Securee p{
+    font-size: 18px;
+}
+ .quote{
+     margin: 50px; 
+} 
+.you{
+    background-color: #f4f7fa;
+    padding: 30px 40px;
+    margin-top: 50px;
+}
+.quote h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #ffa500;
+}
+.quote p{
+    font-size: 20px;
+}
+.track{
+    text-align: center;
+    margin: 80px;
+}
+.ship h1{
+    font-size: 45px;
+     color: #ffa500;
+}
+.ship{
+    margin: 50px;
+}
+.Tracking input{
+    width: 50%
+}
+.Tracking input{
+    padding: 15px;
+    border: 3px solid #ffa500;
+    font-size: 18px;
+    border-radius: 30px; 
+}
+.Tracking{
+    gap: 30px;
+}
+.Tracking a{
+    text-decoration: none;
+    color: #ffa500;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(95, 95, 95, 0.15);
+    font-weight: bold;
+}
+.Map img{
+   width: fit-content;
+   height: fit-content;
+   mix-blend-mode: multiply;
+   display: flex;
+   margin: auto;
+}
+.Map h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffa500;
+}
+.Reach img{
+    width: 45px;
+    margin: 20px 60px;
+    border-radius: 20px;
+}
+.Reach{
+    background-color: white;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    
+}
+.Reach h2{
+    font-size: 20px;
+    margin: 10px;
+    color: #222;
+}
+.Reach p{
+    font-size: 18px;
+    width: 83%;
+    color: #555;
+}
+.always{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.late img{
+    width: 95%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px #f1f3f4;
+    margin: 0 20px;
+
+}
+.late{
+    width: 50%;
+}
+.humble{
+    width: 50%;
+}
+.humble p{
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: 20px;
+    width: 110%;
+
+
+}
+.humble h3{
+   font-size: 18px;
+   line-height: 1.6;
+   color: #ffa500;
+   margin-bottom: 25px;
+}
+.humble h4{
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.Founded{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+}
+.nobody{
+    background-color: #f1f3f4;
+}
+.Message{
+    display: block;
+    text-align: center;
+    padding: 80px;
+    background-color:  #f1f3f4;
+}
+.Message img{
+    width: 25px;
+}
+.Message h1{
+    font-size: 45px;
+    color: #ffa500;
+    padding-bottom: 40px;
+}
+.Message h2{
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.Message a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffa500;
+    background-color: white;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    box-shadow: 10px 15px 15px #d6d7d8;
+}
+.Message h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Message h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+.logic h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 40px;
+    font-weight: normal;
+}

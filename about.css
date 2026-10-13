@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffa500;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+}
+ul a:hover{
+    color: brown;
+    cursor: pointer;
+}
+ul a{
+    text-decoration: none;
+    
+}
+ul li a{
+    margin-right: 20px;
+}
+.intend{
+    background: url(e3787ab8-7a2c-4838-b55a-db89ca6d7100\ \(2\).JPG);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: 90px;
+}
+.bound{
+    position: relative;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.bound h1{
+    font-size: 60px;
+    font-weight: bolder ;
+    margin-bottom: 40px;
+}
+.bound p{
+    font-size: 25px;
+    font-weight: normal;
+}
+.story{
+    text-align: center;
+    margin: 70px;
+}
+.story h1{
+    color: #ffa500;
+    font-size: 45px;
+}
+.proud h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    width: 150%;
+}
+.late img{
+    width: 95%;
+    height: 350px;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+}
+.late{
+    width: 50%;
+}
+.humble{
+    width: 50%;
+}
+.humble h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.humble h3{
+    font-size: 17px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+.humble p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.Founded{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+}
+.mission{
+    background-color: #f5f7f8;
+    padding: 40px;
+}
+.empower h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ffa500;
+}
+.world img{
+    width: 50px;
+    margin: 0 110px;
+}
+.world{
+    width: 32%;
+    padding: 30px;
+    background-color:white ;
+    margin-top: 30px;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+    margin-bottom: 50px;
+}
+.world p{
+    font-size: 18px;
+    width: 95%;
+    line-height: 1.4;
+}
+.world h1{
+    text-align: center;
+    margin: 15px;
+}
+.Offa{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 8;
+}
+.Founder img{
+  width: 20%;
+  height: 50vh;
+  border-radius: 15px;
+}
+.Founder{
+    text-align: center;
+    /* background: white; */
+    /* box-shadow: 5px 10px 10px 5px black; */
+    min-width: fit-content;
+}
+.Founder h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.Founder h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.Founder p{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 25px;
+}
+.Ready{
+    text-align: center;
+    background-color: #f5f7f8;
+    padding: 110px;
+    margin-top: 80px;
+}
+.Ready h1{
+    font-size: 45px;
+    font-weight:900;
+    margin-bottom: 50px;
+    color: #ffa500;
+}
+.Ready p{
+    font-size: 17px;
+    margin-bottom: 28px;
+}
+.Ready a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    padding: 25px 50px;
+    color: #ffa500;
+    font-weight: bolder;
+    border-radius: 40px;
+    box-shadow: 15px 20px 20px #e2e4e6;
+    /* margin-bottom: 80px; */
+}
+.dean{
+    background-color: black;
+    top: -10;
+}
+.dean h2{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-weight: normal;
+}
