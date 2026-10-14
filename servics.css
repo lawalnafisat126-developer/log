@@ -6,8 +6,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #ffa500;
-    padding: 30px;
+    background-color: black;
+    padding: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
@@ -20,6 +20,7 @@ ul{
     list-style: none;
     gap: 10px;
     font-size: 20px;
+    
 }
 ul a:hover{
     color: brown;
@@ -27,6 +28,7 @@ ul a:hover{
 }
 ul a{
     text-decoration: none;
+    color: white;
     
 }
 ul li a{
@@ -140,6 +142,6 @@ ul li a{
 .dean h2{
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     font-weight: normal;
 }

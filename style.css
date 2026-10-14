@@ -7,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #ffa500;
+    background-color: black;
     /* margin: 10px; */
     padding: 20px;
     border-top-left-radius: 1rem;

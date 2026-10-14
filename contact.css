@@ -7,7 +7,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #ffa500;
+    background-color: black;
     padding: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -106,9 +106,36 @@ h2{
 }
 .parent-hero{
     display: flex;
-    justify-content: space-around;
     margin: 50px;
+    gap: 20px;
 }
-.hours{
+.parent-hero > div{
     background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
+    padding: 30px 40px;
+    transition: 0.3s ease;
+    width: 300px;
+    height: 20vh;
+    border-radius: 8px;
+}
+.parent-hero > div:hover{
+    transform: translateY(-4px);
+    border-bottom: 5px solid orange;
+}
+.parent-hero h3{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.parent-hero p{
+    font-size: 17px;
+    text-align: center;
+}
+.footer{
+    font-size: 8px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 40px;
 }
